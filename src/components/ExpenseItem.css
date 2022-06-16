@@ -7,6 +7,9 @@
   background-color: #4b4b4b;
 }
 
+.test {
+  color: blue;
+}
 .expense-item__description {
   display: flex;
   flex-direction: column;

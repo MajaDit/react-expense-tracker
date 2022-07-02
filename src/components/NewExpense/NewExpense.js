@@ -3,7 +3,11 @@ import "./NewExpense.css";
 import ExpenseForm from "./ExpenseForm";
 
 const NewExpense = () => {
-  return <ExpenseForm />;
+  return (
+    <div className="new-expense">
+      <ExpenseForm />
+    </div>
+  );
 };
 
 export default NewExpense;
